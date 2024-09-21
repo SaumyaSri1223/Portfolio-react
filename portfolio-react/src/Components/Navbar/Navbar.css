@@ -1,0 +1,86 @@
+
+/* .navbar{
+    height: 60px;
+    width: 100%;
+    background:linear-gradient(267deg,#252eda 0.36%,#07ad36 102.06%);
+    
+} */
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.nav-menu ul{
+    display: flex;
+    gap: 80px;
+    margin-top: -60px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+}
+img{
+    height: 40px;
+    width: 200px;
+   
+}
+.logo img{
+    margin-left: 10px;
+    margin-top: 3px;
+    border: 7px solid white;
+}
+
+
+/* @media (max-width: 768px) {
+    .nav-menu ul {
+        gap: 40px;
+        font-size: 18px;
+    }
+
+    .logo img {
+        height: 35px;
+        width: 160px;
+    }
+} */
+
+/* Responsive Styling for Mobile */
+/* @media (max-width: 480px) {
+    .navbar {
+        padding: 0 10px;
+    }
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+        gap: 30px;
+        font-size: 24px;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+        color: white;
+    }
+
+    .logo img {
+        height: 30px;
+        width: 150px;
+    } */
+
+    /* Toggle Menu when Opened */
+    .nav-menu.open {
+        display: flex;
+    }
+

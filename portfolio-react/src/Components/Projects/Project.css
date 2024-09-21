@@ -1,0 +1,87 @@
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 100px 170px;
+}
+.project-title h1{
+   font-size: 60px;
+
+   font-weight: bolder;
+   background:linear-gradient(270deg,#25da34 10%,#8523e1 100%);
+   background-clip: text;
+  -webkit-background-clip: text; 
+   -webkit-text-fill-color: transparent; 
+}
+
+.orphanage{
+    display: flex;
+    
+
+    
+}
+.Online-Food{
+    display: flex;
+    
+
+}
+.technologies{
+    width:650px ;
+    border: 3px solid white;
+    margin: 20px;
+    padding: 20px 30px;
+    
+}
+.head{
+    text-align: center;
+}
+/* @media (max-width: 768px) {
+    .project {
+        margin: 50px 20px;
+    }
+
+    .project-title h1 {
+        font-size: 40px;
+    }
+
+    .orphanage, .Online-Food {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .technologies {
+        width: 90%;
+        margin: 10px 0;
+        padding: 15px 20px;
+    }
+
+    .orphanage img, .Online-Food img {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+    }
+} */
+
+/* @media (max-width: 480px) {
+    .project {
+        margin: 40px 10px;
+        gap: 50px;
+    }
+
+    .project-title h1 {
+        font-size: 30px;
+    }
+
+    .technologies {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .orphanage img, .Online-Food img {
+        width: 100%;
+        height: auto;
+    }
+} */
